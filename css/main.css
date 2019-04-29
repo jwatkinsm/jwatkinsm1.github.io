@@ -1,7 +1,7 @@
 /* cit assingment portal css
 you may use #hex , colro names*/
 /* is a wildcard referring to all elements*/
-{margin: 0; box-sizing: border-box;}
+ * { margin: 0; box-sizing: border-box; }
 
 body {
     font-size: 16px;
@@ -29,7 +29,7 @@ header, footer, footer a {
     color:whitesmoke
 }
 header img {
-    width: ;
+    width:  10px;
     height: auto;
     float: right;
 }
