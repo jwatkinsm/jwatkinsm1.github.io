@@ -20,7 +20,7 @@ header, main, footer {
     padding: .5rem;
     max-width: 500px;
 }
-header, footer, footer a {
+header, footer {
     text-align: center;
     background-color: gray;
     color:whitesmoke
