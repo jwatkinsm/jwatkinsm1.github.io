@@ -16,7 +16,7 @@ h2 {
     text-align: center;
     border-bottom: 1px solid #bbb;
 }
-header, main, footer {
+header, main, footer, nav {
     margin: 1.25rem auto;
     padding: .5rem;
     max-width: 500px;
