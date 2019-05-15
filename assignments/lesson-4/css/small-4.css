@@ -17,7 +17,7 @@ h2 {
     border-bottom: 1px solid #bbb;
 }
 header, main, footer, nav {
-    margin: 0rem auto;
+    margin: .5rem auto;
     padding: 0rem;
     max-width: 500px;
 }
