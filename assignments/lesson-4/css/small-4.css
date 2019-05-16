@@ -12,16 +12,15 @@ h1 {
     color: midnightblue;
 }
 h2 {
-    font-size: 1.0rem;
     text-align: center;
-    border-bottom: 1px solid #bbb;
+    
 }
-header, main, footer, nav {
+header, main, footer, nav, article {
     margin: 0rem auto;
     padding: .5rem;
     max-width: 500px;
 }
-header, footer, footer a, nav, article {
+header, footer, footer a, nav {
     text-align: center;
     background-color: gray;
     color:whitesmoke
@@ -33,7 +32,28 @@ header img {
 }
 footer {
     font-size: 8px;
+    padding-left: 0px;
+    padding-top: 0px;
+    padding-right: 0px;
 }
 footer section {
 background-color: black;
+max-width: 500px;
+}
+nav {
+display: block;
+background-color:rgb(12, 12, 54);
+}
+ul {
+    list-style-type: none;
+}
+article {
+    background-color:rgb(235, 228, 220);
+    color: rgb(45, 33, 153);
+}
+article p {
+    line-height: 20px;
+}
+h3, #author {
+    line-height: 15px;
 }
