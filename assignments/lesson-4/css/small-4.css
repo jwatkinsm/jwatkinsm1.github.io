@@ -47,6 +47,10 @@ background-color:rgb(12, 12, 54);
 ul {
     list-style-type: none;
 }
+.active {
+    background-color: #4CAF50;
+    color: white;
+}
 article {
     background-color:rgb(235, 228, 220);
     color: rgb(45, 33, 153);
