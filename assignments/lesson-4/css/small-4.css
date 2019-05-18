@@ -50,6 +50,7 @@ ul {
 #active {
     background-color: #4CAF50;
     color: white;
+    padding: 0px;
 }
 article {
     background-color:rgb(235, 228, 220);
