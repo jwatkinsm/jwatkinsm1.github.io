@@ -30,6 +30,11 @@ header img {
     height: auto;
     float: left;
 }
+header img, .headings {
+	display: inline-block;
+	vertical-align: middle;
+	margin: 10px;
+}
 footer {
     font-size: 8px;
     padding-left: 0px;
