@@ -67,3 +67,6 @@ article p {
 h3, #author {
     line-height: 15px;
 }
+img {
+    max-width: 500px;
+}
