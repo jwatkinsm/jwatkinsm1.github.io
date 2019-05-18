@@ -28,7 +28,7 @@ header, footer, footer a, nav {
 header img {
     width:  100px;
     height: auto;
-    float: right;
+    float: left;
 }
 footer {
     font-size: 8px;
