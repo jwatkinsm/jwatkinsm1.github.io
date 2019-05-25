@@ -1,4 +1,7 @@
-* { margin: 0; box-sizing: border-box; }
+* { margin: 0; 
+    box-sizing: border-box; 
+    font-family: 'Cabin', sans-serif;
+}
 img {
     max-width: 500px;
     margin: 0px;
@@ -57,7 +60,7 @@ nav {
 display: inline-block;
 background-color:rgb(12, 12, 54);
 position: relative;
-  
+  align-content: center
 }
 button {
     background-color: #4CAF50;
@@ -66,6 +69,7 @@ button {
   font-size: 16px;
   border: none;
   cursor: pointer;
+align-content: center
 }
 ul {
     list-style-type: none;
