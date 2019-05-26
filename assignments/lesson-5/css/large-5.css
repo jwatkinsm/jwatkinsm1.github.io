@@ -15,7 +15,7 @@
                       
                       /* Clear floats */
         .row:after {
-                        float: center;        
+                                
                         content: "";
                         display: table;
                          clear: both;

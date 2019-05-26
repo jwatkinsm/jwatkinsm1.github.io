@@ -125,10 +125,8 @@ article {
 article p {
     line-height: 20px;
 }
-article img {
-    box-align: center;
-   
-}
+
+
 h3, #author {
     line-height: 15px;
 }
