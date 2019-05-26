@@ -130,5 +130,5 @@ article p {
 h3, #author {
     line-height: 15px;
 }
-.column h3   {display: block;}
+.column h3   {display: none;}
 .column p {display: none;}

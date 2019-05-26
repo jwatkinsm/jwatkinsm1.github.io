@@ -6,7 +6,7 @@
         ul li {display:inline-block;
                 margin-right:1rem;}
         .column {
-                        display: block;
+                        
                         float: left;
                         width: 15%;
                         border: 2px solid black;
