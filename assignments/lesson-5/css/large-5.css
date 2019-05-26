@@ -1,8 +1,31 @@
 * { margin: 0; 
     box-sizing: border-box;
     font-family: 'Cabin', sans-serif;}
-    @media only screen and (min-width: 32.5em){
-        ul li:first-child {display:none;}
+    @media only screen and (min-width: 700px){
+        ul li  {display:none;}
         ul li {display:inline-block;
                 margin-right:1rem;}
+        .column {
+                        display: block;
+                        float: left;
+                        width: 15%;
+                        border: 2px solid black;
+                        text-align: center;
+                      }
+                      
+                      /* Clear floats */
+        .row:after {
+                        float: center;        
+                        content: "";
+                        display: table;
+                         clear: both;
+                        
+                      }
+        .column h3 {display:block;
+                background-color: red;
+        }  .column p {display: block;}
+
+        div {
+                
+        }            
     }
