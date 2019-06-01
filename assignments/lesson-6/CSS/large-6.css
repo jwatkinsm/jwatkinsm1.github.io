@@ -1,0 +1,9 @@
+* { margin: 0; 
+    box-sizing: border-box;
+    font-family: 'Cabin', sans-serif;}
+
+    @media only screen and (min-width: 600px) {
+        .topNav li:first-child { display: none;}
+              .topNav li { display: inline-block; margin-right: 1rem;}	
+              .topNav li a { color: yellow;}
+}
