@@ -6,4 +6,14 @@
         .topNav li:first-child { display: none;}
         .topNav li { display: inline-block; margin-right: auto;}	
         .topNav li a { color: yellow;}
+        .row {column-count: 5;
+                text-align: center;
+                column-gap: 0px;
+                margin: 50px;
+        }    
+        .column{border:2px solid red;}
+        .column h3 {display: block;
+                background-color: brown;
+        }
+        .column p {display: block;}
 }

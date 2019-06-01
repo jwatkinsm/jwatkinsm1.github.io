@@ -1,3 +1,3 @@
-function toggleMenu() {
-	document.getElementsByClassName("topNav")[0].classList.toggle("responsive");
-}
+
+var date = new Date();
+document.getElementById('currentdate').innerHTML = date.toDateString();

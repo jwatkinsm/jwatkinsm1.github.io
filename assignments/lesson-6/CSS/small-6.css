@@ -76,7 +76,7 @@ nav {	margin: 0 auto;
     background-color: #000;	}
 .topNav { list-style: none; 
     text-align: center; }
-  .topNav li:first-child { display: inline-block;}
+  .topNav li:first-child { display: block;}
   .topNav li { display: none;}
   .topNav a {	display: block;	
     color: #fff; 
@@ -84,6 +84,7 @@ nav {	margin: 0 auto;
     text-align: center;	
     text-decoration: none;}
   .topNav a:hover {	color: #000; background-color: #fff; font-weight: 700;	}
+  #active {background-color: blueviolet;}
 	.responsive li { display: block; }
 
 
