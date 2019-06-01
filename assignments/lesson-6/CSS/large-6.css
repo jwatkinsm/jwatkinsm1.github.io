@@ -4,6 +4,6 @@
 
     @media only screen and (min-width: 600px) {
         .topNav li:first-child { display: none;}
-              .topNav li { display: inline-block; margin-right: 1rem;}	
-              .topNav li a { color: yellow;}
+        .topNav li { display: inline-block; margin-right: auto;}	
+        .topNav li a { color: yellow;}
 }

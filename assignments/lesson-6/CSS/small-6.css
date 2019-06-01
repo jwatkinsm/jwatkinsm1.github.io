@@ -71,18 +71,22 @@ footer section {
 background-color: black;
 max-width: 100%;
 }
-nav {	margin: 0 auto;	max-width: 760px; background-color: #000;	}
-.topNav { list-style: none; text-align: center; }
-  .topNav li:first-child { display: block;}
+nav {	margin: 0 auto;	
+    max-width: 100%; 
+    background-color: #000;	}
+.topNav { list-style: none; 
+    text-align: center; }
+  .topNav li:first-child { display: inline-block;}
   .topNav li { display: none;}
-  .topNav a {	display: block;	color: #fff; padding: .75rem;	text-align: center;	text-decoration: none;}
+  .topNav a {	display: block;	
+    color: #fff; 
+    padding: .75rem;	
+    text-align: center;	
+    text-decoration: none;}
   .topNav a:hover {	color: #000; background-color: #fff; font-weight: 700;	}
 	.responsive li { display: block; }
 
-@media only screen and (min-width: 32.5em) {
-    .topNav li:first-child { display: none;	}
-      .topNav li { display: inline-block; margin-right: 1rem;}	
-      .topNav li a { color: yellow;}}
+
 
 
 
