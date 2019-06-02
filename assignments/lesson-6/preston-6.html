@@ -39,7 +39,11 @@
             <section>
                 <h2>Preston</h2>
                 <div class="overlay">
-                <!--hero image--><img class="hero-image" src="images/cit230_image_franklinOriginal.jpeg" alt="hero image" >
+                    <picture>
+                <!--hero image--><img class="hero-image" src="images/cit230_image_franklinOriginalsmall.jpg" alt="hero image"> 
+                                <source media="(min-width: 650px)" srcset="images/cit230_image_franklinOriginallarge.jpg">
+                                <source media="(min-width: 465px)" srcset="images/cit230_image_franklinOriginalsmall.jpg">
+                    </picture>
                 <!--weather summary--><section class="weathersummary">
                 <h3>weather summary</h3>
                 <p>label: value</p>
