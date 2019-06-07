@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang= "en-us">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, intial-scale-1, maxium-scale-1">
+        <meta name="description" content="The Quad-Cities Transporation Center has been serving the region for over 30 years.">
+        <link href="https://fonts.googleapis.com/css?family=Cabin&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="CSS/normalize.css">
+        <link rel="stylesheet" href="CSS/small-6.css">
+        <link rel="stylesheet" media="screen and (min-width: 601px)" href="CSS/large-6.css">
+      <title>lesson 6 </title>
+        
+    </head>
+    <body>
+        <header>
+            <!--logo--> <img class= "headerimage" src="images/potat0.png" alt="logo">
+            <section class="headings">
+                   
+                <h1>The Weather potato</h1>
+             <div class= motto>where the weather grows</div>
+             <!--current conditions-->
+            </section>
+        </header>
+
+        <nav>
+           
+            <ul class="topNav">
+                <li><a onclick="toggleMenu()">&#9776; menu</a></li>
+                <li><a >  home</a></li>
+                <li id="active"><a>preston</a></li>
+                <li><a>soda springs</a></li>
+                <li><a>fish haven</a></li>
+                <li><a>storm center</a></li>
+                <li><a>gallery</a></li>
+            </ul>
+        </nav>
+        
+        <main>
+            <section>
+                <h2>Preston</h2>
+                <div class="overlay">
+                    <picture>
+                        <source media="(min-width: 601px)" srcset="images/cit230_image_franklinOriginallarge.jpg">
+                        <source media="(max-width: 600px)" srcset="images/cit230_image_franklinOriginalsmall.jpg">
+                <!--hero image--><img class="hero-image" src="images/cit230_image_franklinOriginalsmall.jpg" alt="hero image"> 
+                                
+                    </picture>
+                <!--weather summary--><section class="weathersummary">
+                <h3>weather summary</h3>
+                <p>label: value</p>
+                <p>label: value</p>
+                <p>label: value</p>
+            </section>
+            </div>
+            </section>
+            <section>
+                <div class="row">
+                    <div class="column">
+                        <h3>test</h3>
+                        <p> lorem ipsum</p>
+                    </div>
+                    <div class="column">
+                        <h3>test 2</h3>
+                        <p>lorem ipsum</p>
+                    </div>
+                    <div class="column">
+                        <h3>test 3</h3>
+                        <p>lorem ipsum</p>
+                    </div>
+                    <div class="column">
+                        <h3>test 4</h3>
+                        <p>loerm ipsum</p>
+                    </div> 
+                    <div class="column">
+                        <h3>test 5</h3>
+                        <p>lorem ipsum</p>
+                    </div>
+                  </div> 
+            </section>
+            <article>
+                <div class="articlediv">
+                <h4>Article title</h4>
+                    <p id="author">author</p>
+                <p><br>
+                    jshfkjafdujahslkjfhsalkjhfjasdlhasajbkjsafblkj<br>
+                    hfjasgfjahslkjahdsfjjfsahjhsajfjhasjhfkjhkjashfkjhkjas
+                    hsfhgjhsjfhjshfjhsajfhjsfjsjfjsfhjjkasfjhgjasj
+                </p>
+                <!--article image--><img src="images/img-home-derringer1.jpg" alt="article image">
+                </div>
+            </article>
+
+            
+        </main>
+        
+        <footer>
+            <section>
+                <h5> contact info</h5>
+                phone:<br>
+                email:<br>
+                <!--map--><img src="images/preston-map.jpg" alt="map">
+             </section>
+             <p>&copy;2019 the weather potato | Attributions |<span id="currentdate"></span> </p>
+        </footer>
+        <script src="script/navagation.js"></script>
+        <script src="script/currentdate.js"></script>
+    </body>
+</html>
