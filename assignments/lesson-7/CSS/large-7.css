@@ -3,9 +3,11 @@
     font-family: 'Cabin', sans-serif;}
 
     @media only screen and (min-width: 600px) {
+        .topNav{flex-direction: row;}
         .topNav li:first-child { display: none;}
-        .topNav li { display: inline-block; margin-right: auto;}	
+        .topNav li { display: block; flex: 1 1 auto;}	
         .topNav li a { color: yellow;}
+       
         .row {column-count: 5;
                 text-align: center;
                 column-gap: 0px;
@@ -16,4 +18,16 @@
                 background-color: brown;
         }
         .column p {display: block;}
+
+
+        .grid{
+                grid-template-columns: 1fr 1fr 1fr;
+        }
+        .grid figcaption{
+                display:none;
+        }
+        
+        .grid figure:hover {box-shadow: 0 0 50px #333;}
+        .grid figure:hover  figcaption{display: block;}
 }
+

@@ -25,6 +25,10 @@ h1 {
 h2 {
     text-align: center;
 }
+header{
+    display: flex;
+    justify-content: center
+}
 header, main, footer, nav {
     margin: 0rem auto;
     padding: 0rem;
@@ -37,8 +41,9 @@ header, footer, footer a, nav {
 }
 .headerimage {
     width:  50px;
+    height: 50px;
     float: left;
-    margin-left: 60px;
+    padding: 0px;
 }
  .headings {
 	display: inline-block;
@@ -75,7 +80,9 @@ nav {	margin: 0 auto;
     max-width: 100%; 
     background-color: #000;	}
 .topNav { list-style: none; 
-    text-align: center; }
+    text-align: center;
+    display: flex;
+    flex-direction:column; }
   .topNav li:first-child { display: block;}
   .topNav li { display: none;}
   .topNav a {	display: block;	
@@ -110,3 +117,15 @@ h3, #author {
 }
 .column h3   {display: none;}
 .column p {display: none;}
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr ;
+    margin: 50px;
+    grid-gap: 10px;
+}
+.grid figure{
+    border: 10px solid gray;
+}
+.grid img{ width: 250px;
+margin: .5rem}
