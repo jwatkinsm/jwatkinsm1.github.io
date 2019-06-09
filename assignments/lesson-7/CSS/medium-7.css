@@ -1,0 +1,11 @@
+@media only screen and (min-width: 600px) {
+    .grid{
+        grid-template-columns: 1fr 1fr;
+}
+    .grid figcaption{
+        display:none;
+    }
+
+    .grid figure:hover {box-shadow: 0 0 50px #333;}
+    .grid figure:hover  figcaption{display: block;}
+}
