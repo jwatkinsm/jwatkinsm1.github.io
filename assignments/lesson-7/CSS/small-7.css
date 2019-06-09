@@ -121,12 +121,11 @@ h3, #author {
 .grid{
     display: grid;
     grid-template-columns: 1fr ;
- 
+    margin: 50px;
     grid-gap: 10px;
 }
 .grid figure{
-    width: 302px
-    
+    border:  solid gray;
 }
-.grid img{ width: 300px;
+.grid img{ width: 250px;
 margin: .5rem}
