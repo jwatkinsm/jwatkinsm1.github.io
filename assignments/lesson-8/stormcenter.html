@@ -32,13 +32,13 @@
                 <li ><a href= "preston-8.html">preston</a></li>
                 <li><a>soda springs</a></li>
                 <li><a>fish haven</a></li>
-                <li id="active"><a>storm center</a></li>
+                <li id="active"href="stormcenter.html"><a>storm center</a></li>
                 <li><a href= "gallery-8.html">gallery</a></li>
             </ul>
         </nav>
         
         <main>
-            <form action="/assignments/lesson-8/tablebuild.html">
+            <form action="thank.html" method="GET">
                 <fieldset>
                     <legend>Personal Info</legend>
                     Full Name<br>
@@ -53,7 +53,7 @@
                 <fieldset>
                         <legend>Storm Info</legend>
                         Storm Date<br>
-                        <input type="date" name="date" ><br>
+                        <input type="date" name="date" required><br>
                         Storm Type<br>
                         <input list="stype" name="stype" >
                             <datalist id="stype">
@@ -69,14 +69,14 @@
                         onchange="adjustRating(this.value)">
 		                    <span id="ratevalue">5</span><br>
                         Storm Region<br>
-                        <select>
+                        <select required>
                             <option value="selectregion" selected="default" disabled>select region</option>
                             <option value="preston" >Preston</option>
                             <option value="fishhaven" >Fish Haven</option>
                             <option value="sugarcity" >Sugar City</option>
                         </select>><br>
                 </fieldset>
-                <fieldset>
+                <fieldset class="Additional">
                         <legend>Additional Info</legend>
                         <div>
                         User In-Danger Level<br>
@@ -85,9 +85,9 @@
                         <input type="radio" name="dangerLevel" value="no"> No<br>
                         </div>
                         Comments<br>
-                        <input type="textarea" name="comments"><br>
+                        <textarea class="full" type="textarea" name="comments"></textarea><br>
                 </fieldset>
-                <input type="submit" value="Submit">
+             <input class="full" type="submit" value="Submit">
             </form>
         </main>
 
