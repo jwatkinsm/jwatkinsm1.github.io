@@ -129,3 +129,16 @@ h3, #author {
 }
 .grid img{ width: 250px;
 margin: .5rem}
+form{ 
+    padding: 5px;
+    background-color: rgb(112, 110, 110)
+}
+fieldset{
+    background-color: rgb(75, 74, 74)
+}
+.full{
+    width:50%;
+}
+textarea{
+    height: 100px;
+}
