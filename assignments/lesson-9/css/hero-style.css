@@ -1,6 +1,7 @@
 /* || general styles */
 
 html {
+  background-color: yellow;
     font-family: 'helvetica neue', helvetica, arial, sans-serif;
   }
   
@@ -10,6 +11,7 @@ html {
   }
   
   h1, h2 {
+    color: red;
     font-family: 'Faster One', cursive;
   }
   
@@ -45,6 +47,10 @@ html {
     font-size: 2.5rem;
     letter-spacing: -5px;
     margin-bottom: 10px;
+  }
+  
+  p,ul{
+    color: blue;
   }
   
   
