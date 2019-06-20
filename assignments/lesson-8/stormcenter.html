@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang= "en-us">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, intial-scale-1, maxium-scale-1">
+        <meta name="description" content="The Quad-Cities Transporation Center has been serving the region for over 30 years.">
+        <link href="https://fonts.googleapis.com/css?family=Cabin&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="CSS/noramlize.css">
+        <link rel="stylesheet" href="CSS/small-7.css">
+        <link rel="stylesheet" media="screen and (min-width: 600px)" href="CSS/med ium-7.css">
+        <link rel="stylesheet" media="screen and (min-width: 992px)" href="CSS/large-7.css">
+        
+      <title>gallery </title>
+        
+    </head>
+    <body>
+        <header>
+            <!--logo--> <img class= "headerimage" src="images/potat0.png" alt="logo">
+            <section class="headings">
+                   
+                <h1>The Weather potato</h1>
+             <div class= motto>where the weather grows</div>
+             <!--current conditions-->
+            </section>
+        </header>
+
+        <nav>
+           
+            <ul class="topNav">
+                <li><a onclick="toggleMenu()">&#9776; menu</a></li>
+                <li><a >  home</a></li>
+                <li ><a href= "preston-8.html">preston</a></li>
+                <li><a>soda springs</a></li>
+                <li><a>fish haven</a></li>
+                <li   id="active"><a href="stormcenter.html">storm center</a></li>
+                <li><a href= "gallery-8.html">gallery</a></li>
+            </ul>
+        </nav>
+        
+        <main>
+            <form action="thank.html" method="GET">
+                <fieldset>
+                    <legend>Personal Info</legend>
+                    Full Name<br>
+                    <input type="text" name="name" placeholder="full name" pattern="[A-Za-z]{5,}"required><br>
+                    Email<br>
+                    <input type="email" name="email" placeholder="example@email.com"><br>
+                    Phone Number<br>
+                    <input type="tel" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="000-000-0000" required><br>
+                    Zipcode<br>
+                    <input type="number" name="zcode" pattern="[0-9]{5}" placeholder="12345" required><br>
+                </fieldset>
+                <fieldset>
+                        <legend>Storm Info</legend>
+                        Storm Date<br>
+                        <input type="date" name="date" required><br>
+                        Storm Type<br>
+                        <input list="stype" name="stype" >
+                            <datalist id="stype">
+                                <option value="Flash Flood"></option>
+                                <option value="Hail"></option>
+                                <option value="Hurricane"></option>
+                                <option value="Thunderstorm"></option>
+                                <option value="Tornado"></option>
+                            </datalist><br>
+                        Storm Severity<br>
+                        <input type="range" name="severity" value="5" min="1" max="10" step="1"
+                        oninput="adjustRating(this.value)" 
+                        onchange="adjustRating(this.value)">
+		                    <span id="ratevalue">5</span><br>
+                        Storm Region<br>
+                        <select required>
+                            <option value="selectregion" selected="default" disabled>select region</option>
+                            <option value="preston" >Preston</option>
+                            <option value="fishhaven" >Fish Haven</option>
+                            <option value="sugarcity" >Sugar City</option>
+                        </select>><br>
+                </fieldset>
+                <fieldset class="Additional">
+                        <legend>Additional Info</legend>
+                        <div>
+                        User In-Danger Level<br>
+                        <input type="radio" name="dangerLevel" value="yes"> Yes<br>
+                        <input type="radio" name="dangerLevel" value="maybe"> Maybe<br>
+                        <input type="radio" name="dangerLevel" value="no"> No<br>
+                        </div>
+                        Comments<br>
+                        <textarea class="full" type="textarea" name="comments"></textarea><br>
+                </fieldset>
+             <input class="full" type="submit" value="Submit">
+            </form>
+        </main>
+
+        <footer>
+            <section>
+                <h5> contact info</h5>
+                phone:<br>
+                email:<br>
+                <!--map--><img src="images/preston-map.jpg" alt="map">
+            </section>
+            <p>&copy;2019 the weather potato | Attributions |<span id="currentdate"></span> </p>
+        </footer>
+        <script src="script/navagation.js"></script>
+        <script src="script/currentdate.js"></script>
+        <script src="script/windchill.js"></script>
+        <script src="script/rating.js"></script>
+    </body>
+</html>
