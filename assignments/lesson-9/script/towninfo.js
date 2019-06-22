@@ -15,8 +15,7 @@
       var towns = jsonObj['towns'];
       
       for(var i = 0; i < towns.length;i++) {
-       towns.shift();
-       towns.push();
+      
         var myArticle = document.createElement('article');
         var myH2 = document.createElement('h2');
         var myPara1 = document.createElement('p');
