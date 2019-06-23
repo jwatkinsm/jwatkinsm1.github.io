@@ -147,3 +147,6 @@ textarea{
     grid-gap:5px;
     text-align: center;
 }
+.townData p, .townData h2{
+    padding:10px;
+}

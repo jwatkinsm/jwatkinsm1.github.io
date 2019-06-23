@@ -24,20 +24,20 @@ request.onload = function () {
             para1.textContent = townArray[i].motto;
             para2.textContent = "Year Founded:  " + townArray[i].yearFounded;
             para3.textContent = "Population:  " + townArray[i].currentPopulation;
-            para4.textContent = "Average Rainfall:  " + townArray[i].averageRainfall + " inches";
+            para4.textContent = "Average Rainfall:  " + townArray[i].averageRainfall + " in";
 
             
            
             
             if (townArray[i].name == 'Fish Haven') {
-                image.setAttribute("src", "images/fishhaven.jpg");
-                image.setAttribute("alt", "Lakeside homes");
+                image.setAttribute("src", "images/fishhaventown.jpg");
+                image.setAttribute("alt", "Lakeside ");
             } else if (townArray[i].name == 'Preston') {
-                image.setAttribute("src", "images/");
-                image.setAttribute("alt", "Town store");
+                image.setAttribute("src", "images/prestontown.jpg");
+                image.setAttribute("alt", "Town sign");
             } else if (townArray[i].name == 'Soda Springs') {
-                image.setAttribute("src", "images/sodasprings.jpg");
-                image.setAttribute("alt", "Geyser rainbow");
+                image.setAttribute("src", "images/sodaspringstown.jpg");
+                image.setAttribute("alt", "Geyser ");
             }
             article.appendChild(h3);
             article.appendChild(para1);
