@@ -142,3 +142,8 @@ fieldset{
 textarea{
     height: 100px;
 }
+.townData{display:grid;
+    grid-template-columns:1fr;
+    grid-gap:5px;
+    text-align: center;
+}
