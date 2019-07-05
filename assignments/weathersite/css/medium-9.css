@@ -1,0 +1,22 @@
+@media only screen and (min-width: 600px) {
+    .grid{
+        grid-template-columns: 1fr 1fr;
+}
+    .grid figcaption{
+        display:none;
+    }
+
+    form{display:grid;
+        grid-template-columns: 1fr 1fr;
+    grid-gap: 5px;
+    }
+        
+        .Additional{
+            grid-column:1 / 3;
+        }
+   .townData{
+       
+       grid-template-columns:1fr 1fr 1fr;
+       grid-gap:5px;
+   }
+}

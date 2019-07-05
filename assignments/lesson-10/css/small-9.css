@@ -55,7 +55,7 @@ header, footer, footer a, nav {
     max-width: 100%;
 }
 .overlay {
-    margin: 10px auto;position: relative;
+    min-height: 250px;position: relative;
 }
 .weathersummary {
     position: absolute;
@@ -64,7 +64,8 @@ header, footer, footer a, nav {
 	background: rgba(6, 122, 45, 0.8);
 	border: 1px solid #000;
 	padding: 1.5rem;
-	box-shadow: 0 0 30px #fff;
+    box-shadow: 0 0 30px #fff;
+    line-height: 1.5em;
 }
 footer {
     font-size: 8px;
@@ -115,8 +116,10 @@ article p {
 h3, #author {
     line-height: 15px;
 }
+.row{display:none;}
 .column h3   {display: none;}
 .column p {display: none;}
+
 
 .grid{
     display: grid;

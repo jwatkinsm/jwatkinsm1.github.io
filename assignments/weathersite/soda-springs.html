@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang= "en-us">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, intial-scale-1, maxium-scale-1">
+        <meta name="description" content="The Quad-Cities Transporation Center has been serving the region for over 30 years.">
+        <link href="https://fonts.googleapis.com/css?family=Cabin&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/noramlize.css">
+        <link rel="stylesheet" href="css/small-9.css">
+        <link rel="stylesheet" media="screen and (min-width: 600px)" href="css/medium-9.css">
+        <link rel="stylesheet" media="screen and (min-width: 992px)" href="css/large-9.css">
+        
+      <title>Soda Springs </title>
+        
+    </head>
+    <body>
+        <header>
+            <!--logo--> <img class= "headerimage" src="images/potat0.png" alt="logo">
+            <section class="headings">
+                   
+                <h1>The Weather potato</h1>
+             <div class= motto>where the weather grows</div>
+             <!--current conditions-->
+            </section>
+        </header>
+
+        <nav>
+           
+            <ul class="topNav">
+                <li><a onclick="toggleMenu()">&#9776; menu</a></li>
+                <li><a href="index-9.html">  home</a></li>
+                <li id="active"><a href="preston-9.html">preston</a></li>
+                <li><a>soda springs</a></li>
+                <li><a>fish haven</a></li>
+                <li><a href="stormcenter-9.html">storm center</a></li>
+                <li><a href="gallery-9.html">gallery</a></li>
+            </ul>
+        </nav>
+        
+        <main>
+            <section>
+                <h2>Soda Springs</h2>
+                <div class="overlay">
+                    <picture>
+                        <source media="(min-width: 601px)" srcset="images/cit230_image_franklinOriginallarge.jpg">
+                        <source media="(max-width: 600px)" srcset="images/cit230_image_franklinOriginalsmall.jpg">
+                <!--hero image--><img class="hero-image" src="images/cit230_image_franklinOriginalsmall.jpg" alt="hero image"> 
+                                
+                    </picture>
+                <!--weather summary--><section class="weathersummary">
+                <h3>weather summary</h3>
+                <p>currently:<span id="current"></span></p>
+                <p>high:<span id= "temp"></span> &#8457;</p>
+                <p>wind chill:<span id="windchill"></span></p>
+                <p>humidity:<span id= "humidity"></span></p>
+                <p>wind speed:<span id= "windspeed"></span>mph</p>
+            </section>
+            </div>
+            </section>
+            <section>
+                <div class="row">
+                    <div class="column">
+                        <h3><span id ="day1"></span></h3>
+                        <p><span id="temp1"></span> &#8457; </p>
+                        <img id="pic1">
+                    </div>
+                    <div class="column">
+                        <h3><span id ="day2"></span></h3>
+                        <p><span id="temp2"></span> &#8457; </p>
+                        <img id="pic2">
+                    </div>
+                    <div class="column">
+                        <h3><span id ="day3"></span></h3>
+                        <p><span id="temp3"></span> &#8457; </p>
+                        <img id="pic3">
+                    </div>
+                    <div class="column">
+                        <h3><span id ="day4"></span></h3>
+                        <p><span id="temp4"></span> &#8457; </p>
+                        <img id="pic4">
+                    </div> 
+                    <div class="column">
+                        <h3><span id ="day5"></span></h3>
+                        <p><span id="temp5"></span> &#8457; </p>
+                        <img id="pic5">
+                    </div>
+                  </div> 
+            </section>
+            <article>
+                <div class="articlediv">
+                <h4>Article title</h4>
+                    <p id="author">author</p>
+                <p><br>
+                    jshfkjafdujahslkjfhsalkjhfjasdlhasajbkjsafblkj<br>
+                    hfjasgfjahslkjahdsfjjfsahjhsajfjhasjhfkjhkjashfkjhkjas
+                    hsfhgjhsjfhjshfjhsajfhjsfjsjfjsfhjjkasfjhgjasj
+                </p>
+                <!--article image--><img src="images/img-home-derringer1.jpg" alt="article image">
+                </div>
+            </article>
+           <section class="events">
+               <h5>Town Events</h5>
+           </section>
+        </main>
+        
+        <footer>
+            <section>
+                <h5> contact info</h5>
+                phone:<br>
+                email:<br>
+                <!--map--><img src="images/preston-map.jpg" alt="map">
+             </section>
+             <p>&copy;2019 the weather potato | Attributions:<a href="https://openweathermap.org/">Openweathermap.org</a> |<span id="currentdate"></span> </p>
+        </footer>
+        <script src="script/navagation.js"></script>
+        <script src="script/currentdate.js"></script>
+        <script src="script/windchill.js"></script>
+        <script src="weatherapi.js"></script>
+        <script src="script/events.js"></script>
+    </body>
+</html>
