@@ -1,4 +1,4 @@
-var section = document.querySelector('.townData');
+var div = document.querySelector('.townData');
 var requestURL = 'https://byui-cit230.github.io/weather/data/towndata.json';
 var request = new XMLHttpRequest();
 request.open('GET', requestURL);
@@ -46,7 +46,7 @@ request.onload = function () {
             article.appendChild(para4);
             article.appendChild(image);
             
-            section.appendChild(article);
+            div.appendChild(article);
         }
     }
 
