@@ -6,7 +6,7 @@
         .topNav{flex-direction: row;}
         .topNav li:first-child { display: none;}
         .topNav li { display: block; flex: 1 1 auto;}	
-        .topNav li a { color: yellow;}
+        .topNav li a { color: white;}
        
         .row {display:block;
                 column-count: 5;
@@ -15,11 +15,14 @@
                 margin: 50px;
         } 
         .column{align-content: center;}   
-        .column{border:2px solid red;}
+        .column{border:2px solid rgb(84, 179, 66);}
         .column h3 {display: block;
-                background-color: brown;
+               padding: 10px;
+                background-color: rgb(10, 117, 6);
+                color:white;
         }
-        .column p {display: block;}
+        .column p {display: block;
+      }
      
         
         

@@ -2,7 +2,7 @@
 <html lang= "en-us">
     <head>
         <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, intial-scale-1, maxium-scale-1">
+        <meta name="viewport" content="width=device-width, intial-scale=1, maxium-scale=1">
         <meta name="description" content="The Quad-Cities Transporation Center has been serving the region for over 30 years.">
         <link href="https://fonts.googleapis.com/css?family=Cabin&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="css/noramlize.css">
@@ -10,7 +10,7 @@
         <link rel="stylesheet" media="screen and (min-width: 600px)" href="css/medium-9.css">
         <link rel="stylesheet" media="screen and (min-width: 992px)" href="css/large-9.css">
         
-      <title>Soda Springs </title>
+      <title>Soda Springs - Historic Oregon Trail Oasis. The Soda is on Us. - Weather Potato  </title>
         
     </head>
     <body>
@@ -29,9 +29,9 @@
             <ul class="topNav">
                 <li><a onclick="toggleMenu()">&#9776; menu</a></li>
                 <li><a href="index-9.html">  home</a></li>
-                <li id="active"><a href="preston-9.html">preston</a></li>
-                <li><a>soda springs</a></li>
-                <li><a>fish haven</a></li>
+                <li ><a href="preston-10.html">preston</a></li>
+                <li id="active"><a href="soda-springs.html">soda springs</a></li>
+                <li><a href="fiah-haven.html">fish haven</a></li>
                 <li><a href="stormcenter-9.html">storm center</a></li>
                 <li><a href="gallery-9.html">gallery</a></li>
             </ul>
@@ -39,7 +39,7 @@
         
         <main>
             <section>
-                <h2>Soda Springs</h2>
+                <h2 id="tid" data-id="5607916" >Soda Springs</h2>
                 <div class="overlay">
                     <picture>
                         <source media="(min-width: 601px)" srcset="images/cit230_image_franklinOriginallarge.jpg">
@@ -86,6 +86,9 @@
                     </div>
                   </div> 
             </section>
+                <article class="events">
+                    <h4>Town Events</h4>
+                </article>
             <article>
                 <div class="articlediv">
                 <h4>Article title</h4>
@@ -98,24 +101,22 @@
                 <!--article image--><img src="images/img-home-derringer1.jpg" alt="article image">
                 </div>
             </article>
-           <section class="events">
-               <h5>Town Events</h5>
-           </section>
+          
         </main>
         
         <footer>
             <section>
-                <h5> contact info</h5>
-                phone:<br>
-                email:<br>
-                <!--map--><img src="images/preston-map.jpg" alt="map">
+                    <h5> contact info</h5>
+                    phone: 000-000-1234<br>
+                    email:iamnotrealwebsite@weather.com<br><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d5116841.758548287!2d-118.4979723692034!3d-79.2579946203537!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1562465283016!5m2!1sen!2sus" width="300" height="225" frameborder="0" style="border:0" ></iframe>
+                <!--map-->
              </section>
-             <p>&copy;2019 the weather potato | Attributions:<a href="https://openweathermap.org/">Openweathermap.org</a> |<span id="currentdate"></span> </p>
+             <p>&copy;2019 the weather potato | Attributions:<a href="https://openweathermap.org/">Current weather data provided by OpenWeatherMap, under the CC BY-SA 4.0 license.</a> |<span id="currentdate"></span> </p>
         </footer>
         <script src="script/navagation.js"></script>
         <script src="script/currentdate.js"></script>
         <script src="script/windchill.js"></script>
-        <script src="weatherapi.js"></script>
+        <script src="script/weatherapi.js"></script>
         <script src="script/events.js"></script>
     </body>
 </html>

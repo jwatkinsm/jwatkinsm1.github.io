@@ -1,5 +1,12 @@
+function getTownIdURL(){
+  let town =document.getElementById("tid");
+  let ID = town.getAttribute("data-id");
+  let urlTemplate = "https://api.openweathermap.org/data/2.5/weather?id=" + ID + "&units=imperial&APPID=f1032fc36d05c17197425dc4e32cd89e";
+  return urlTemplate;
+}
+
 var weatherRequest= new XMLHttpRequest();
-var apiURLstring= 'https://api.openweathermap.org/data/2.5/weather?id=5604473&units=imperial&APPID=1446b3571d31230010c918221292fee5';
+var apiURLstring= getTownIdURL();
 weatherRequest.open('Get', apiURLstring, true);
 weatherRequest.send();
 

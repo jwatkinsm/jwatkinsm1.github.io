@@ -20,7 +20,7 @@ body {
 h1 {
     text-align: center;
     font-size: 2.0rem;
-    color: midnightblue;
+    color: rgb(107, 82, 45);
 }
 h2 {
     text-align: center;
@@ -36,7 +36,7 @@ header, main, footer, nav {
 }
 header, footer, footer a, nav {
     text-align: center;
-    background-color: gray;
+    background-color: rgb(84, 179, 66);
     color:whitesmoke;
 }
 .headerimage {
@@ -66,6 +66,7 @@ header, footer, footer a, nav {
 	padding: 1.5rem;
     box-shadow: 0 0 30px #fff;
     line-height: 1.5em;
+    color:white;
 }
 footer {
     font-size: 8px;
@@ -73,13 +74,15 @@ footer {
     padding-top: 0px;
     padding-right: 0px;
 }
-footer section {
-background-color: black;
+
+footer section  {
+background-color:rgb(107, 82, 45);
 max-width: 100%;
+font-size: 14px;
 }
 nav {	margin: 0 auto;	
     max-width: 100%; 
-    background-color: #000;	}
+    background-color: rgb(10, 117, 6);	}
 .topNav { list-style: none; 
     text-align: center;
     display: flex;
@@ -87,12 +90,12 @@ nav {	margin: 0 auto;
   .topNav li:first-child { display: block;}
   .topNav li { display: none;}
   .topNav a {	display: block;	
-    color: #fff; 
+    color: white; 
     padding: .75rem;	
     text-align: center;	
     text-decoration: none;}
   .topNav a:hover {	color: #000; background-color: #fff; font-weight: 700;	}
-  #active {background-color: blueviolet;}
+  #active {background-color: rgb(107, 82, 45);}
 	.responsive li { display: block; }
 
 
@@ -100,8 +103,8 @@ nav {	margin: 0 auto;
 
 
 article {
-    background-color:rgb(235, 228, 220);
-    color: rgb(45, 33, 153);
+    background-color:rgba(176, 241, 172, 0.589);
+    color: rgb(107, 82, 45);
     margin: .5rem;
     padding:.5rem;
 }
@@ -128,16 +131,21 @@ h3, #author {
     grid-gap: 10px;
 }
 .grid figure{
-    border:  solid gray;
+    border:  solid rgb(107, 82, 45);
 }
-.grid img{ width: 250px;
-margin: .5rem}
+.grid img{ height: 100%;
+    width: 100%;
+}
 form{ 
     padding: 5px;
-    background-color: rgb(255, 255, 255)
+    background-color: rgb(255, 255, 255);
+}
+.stormrequired{
+    padding-left: 50px;
+    color: red;
 }
 fieldset{
-    background-color: rgb(75, 74, 74)
+    background-color: rgba(176, 241, 172, 0.589);
 }
 .full{
     width:100%;
@@ -152,4 +160,12 @@ textarea{
 }
 .townData p, .townData h2{
     padding:10px;
+}
+
+.townData article img{
+    padding:0px;
+  width: 100%;
+}
+.events ul{
+ list-style:none;
 }

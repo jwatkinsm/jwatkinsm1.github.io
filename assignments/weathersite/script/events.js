@@ -1,5 +1,5 @@
 
-var section = document.querySelector('.events');
+var article = document.querySelector('.events');
 
 var requestURL = 'https://byui-cit230.github.io/weather/data/towndata.json';
 
@@ -51,7 +51,7 @@ function showData(jsonObj) {
 
             }
 
-            section.appendChild(myList);
+            article.appendChild(myList);
 
         }
 
