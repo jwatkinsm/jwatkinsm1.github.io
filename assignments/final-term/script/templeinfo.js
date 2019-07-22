@@ -1,4 +1,4 @@
-var div = document.querySelector('.templeData');
+var div = document.querySelector('templeData');
 var requestURL = 'https://jwatkinsm.github.io/assignments/final-term/script/temples.json';
 var request = new XMLHttpRequest();
 request.open('GET', requestURL);
