@@ -1,5 +1,5 @@
 var div = document.querySelector('div');
-var requestURL = 'https://jwatkinsm.github.io/assignments/final term/script/temples.json';
+var requestURL = 'https://jwatkinsm.github.io/assignments/final-term/script/temples.json';
 var request = new XMLHttpRequest();
 request.open('GET', requestURL);
 request.responseType = 'json';
