@@ -6,8 +6,8 @@ request.responseType = 'json';
 request.send();
 
 request.onload = function () {
-    var templeinfo = request.response;
-    var templeArray = templeinfo['temples'];
+    var templeData = request.response;
+    var templeArray = templeData['temples'];
 
     for (var i = 0; i < townArray.length; i++) {
         if (templeArray[i].name == 'Freiberg Germany Temple' || templeArray[i].name == 'Laie Hawaii Temple' || templeArray[i].name == 'Chicago Illinois Temple' || templeArray[i].name == '"Philadelphia Pennsylvania Temple') {
