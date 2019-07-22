@@ -10,6 +10,7 @@ var apiURLstring= getTownIdURL();
 weatherRequest.open('Get', apiURLstring, true);
 weatherRequest.send();
 
+
 weatherRequest.onload= function(){
     var weatherData= JSON.parse(weatherRequest.responseText);
     console.log(weatherData);

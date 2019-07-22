@@ -1,7 +1,9 @@
 @media only screen and (min-width: 992px) {
     .topNav{flex-direction: row;}
+    
     .topNav li:first-child { display: none;}
+    .dropdown li:first-child{display:none;}
     .topNav li { display: block; flex: 1 1 auto;}	
     .topNav li a { color: white;}
-
-}
+    .dropdown li{display:none;
+    }}

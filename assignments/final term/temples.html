@@ -26,18 +26,30 @@
 
         <nav>
            
-            <ul class="topNav">
-                <li><a onclick="toggleMenu()">&#9776; menu</a></li>
-                <li><a href="index-9.html" >  home</a></li>
-                <li ><a href= "preston-10.html">preston</a></li>
-                <li><a href="soda-springs.html">soda springs</a></li>
-                <li><a href="fiah-haven.html">fish haven</a></li>
-                <li   id="active"><a href="stormcenter-9.html">storm center</a></li>
-                <li><a href= "gallery-9.html">gallery</a></li>
-            </ul>
-        </nav>
+                <ul class="topNav">
+                    <li ><a onclick="toggleMenu()">&#9776; menu</a></li>
+                    <li><a href="index.html" >  home</a></li>
+                    <li ><a href= "reservation.html">reservations</a></li>
+                    <li><a href="temples.html">temples</a>
+                        <ul class="dropdown">
+                            <li><a>tmple1</a></li>
+                            <li><a>temple 2</a></li>
+                            <li><a>temple 3</a></li>
+                            <li><a>temple 4</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="services.html">services</a>
+                        <ul class="dropdown">
+                            <li><a>full-time missionaries</a></li>
+                            <li><a>receptions</a></li>
+                        </ul>
+                    </li>
+                    <li   id="active"><a href="contact.html">contact</a></li>
+                </ul>
+            </nav>
         
         <main>
+            <div class="templeinfo"></div>
         </main>
 
         <footer>
@@ -52,5 +64,6 @@
         <script src="script/navagation.js"></script>
         <script src="script/currentdate.js"></script>
         <script src="script/rating.js"></script>
+        <script src="script/templeinfo.js"></script>
     </body>
 </html>
