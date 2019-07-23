@@ -1,4 +1,4 @@
-var div = document.querySelector('templeData');
+var div = document.querySelector('.templeData');
 var requestURL = 'https://jwatkinsm.github.io/assignments/final-term/script/temples.json';
 var request = new XMLHttpRequest();
 request.open('GET', requestURL);
@@ -9,7 +9,7 @@ request.onload = function () {
     var templeData = request.response;
     var templeArray = templeData['temples'];
 
-    for (var i = 0; i < townArray.length; i++) {
+    for (var i = 0; i < templeArray.length; i++) {
         if (templeArray[i].name == 'Freiberg Germany Temple' || templeArray[i].name == 'Laie Hawaii Temple' || templeArray[i].name == 'Chicago Illinois Temple' || templeArray[i].name == '"Philadelphia Pennsylvania Temple') {
 
             var article = document.createElement('article')
