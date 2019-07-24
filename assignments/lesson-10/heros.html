@@ -53,10 +53,10 @@
         myPara1.textContent = 'Secret identity: ' + heroes[i].secretIdentity;
         myPara2.textContent = 'Age: ' + heroes[i].age;
         myPara3.textContent = 'Superpowers:';
-        var superPowers = heroes[i].powers;
-        for(var j = 0; j < superPowers.length; j++) {
+        var powers = heroes[i].powers;
+        for(var j = 0; j < powers.length; j++) {
           var listItem = document.createElement('li');
-          listItem.textContent = superPowers[j];
+          listItem.textContent = powers[j];
           myList.appendChild(listItem);
         }
         myArticle.appendChild(myH2);

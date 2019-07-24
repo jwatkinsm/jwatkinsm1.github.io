@@ -1,54 +1,46 @@
+/////////General/////////
 var div = document.querySelector('.templeData');
 var requestURL = 'https://jwatkinsm.github.io/assignments/final-term/script/temples.json';
 var request = new XMLHttpRequest();
 request.open('GET', requestURL);
-request.responseType = 'json';
-request.send();
-
-request.onload = function () {
-    var templeData = request.response;
-    var templeArray = templeData['temples'];
-
-    for (var i = 0; i < templeArray.length; i++) {
-        if (templeArray[i].name == 'Freiberg Germany Temple' || templeArray[i].name == 'Laie Hawaii Temple' || templeArray[i].name == 'Chicago Illinois Temple' || templeArray[i].name == '"Philadelphia Pennsylvania Temple') {
-
-            var article = document.createElement('article')
-            var h3 = document.createElement('h3');
-            var para1 = document.createElement('p');
-            var para2 = document.createElement('p');
-            var para3 = document.createElement('p');
-            var para4 = document.createElement('p');
-           // var image = document.createElement("img");
-
-            h3.textContent = templeArray[i].name;
-            para1.textContent = templeArray[i].address;
-            para2.textContent = "Phone:  " + templeArray[i].telephone;
-            para3.textContent = "email:  " + templeArray[i].email;
-            para4.textContent = "history:  " + templeArray[i].history;
-
-            
-           
-            
-           /* if (townArray[i].name == 'Fish Haven') {
-                image.setAttribute("src", "images/fishhaventown.jpg");
-                image.setAttribute("alt", "Lakeside ");
-            } else if (townArray[i].name == 'Preston') {
-                image.setAttribute("src", "images/prestontown.jpg");
-                image.setAttribute("alt", "Town sign");
-            } else if (townArray[i].name == 'Soda Springs') {
-                image.setAttribute("src", "images/sodaspringstown.jpg");
-                image.setAttribute("alt", "Geyser ");
-            }*/
-            article.appendChild(h3);
-            article.appendChild(para1);
-            article.appendChild(para2);
-           article.appendChild(para3);
-            article.appendChild(para4);
-           // article.appendChild(image);
-            
-            div.appendChild(article);
-        }
+    request.responseType = 'json';
+    request.send();
+    request.onload = function() {
+      var templeArray = request.response;
+      showtemples(templeArray);
     }
-
-}
-
+   
+    function showtemples(jsonObj) {
+      var temples = jsonObj['temples'];
+      for(var i = 0; i < temples.length; i++) {
+        var myArticle = document.createElement('article');
+        var myH2 = document.createElement('h2');
+        var myPara1 = document.createElement('p');
+        var myPara2 = document.createElement('p');
+        var myPara3 = document.createElement('p');
+        var myPara4 = document.createElement('p');
+        var myList = document.createElement('ul');
+        var myimg = document.createElement('img');
+        myH2.textContent = temples[i].name;
+        myPara1.textContent = 'Address: ' + temples[i].address;
+        myPara2.textcontent = temples[i].statecountry;
+        myPara3.textContent = 'Phone: ' + temples[i].telephone;
+        myPara4.textContent = 'History:';
+        var powers = temples[i].history;
+        for(var j = 0; j < powers.length; j++) {
+          var listItem = document.createElement('li');
+          listItem.textContent = powers[j];
+          myList.appendChild(listItem);
+        }
+     
+        myArticle.appendChild(myH2);
+        myArticle.appendChild(myPara1);
+        myArticle.appendChild(myPara2);
+        myArticle.appendChild(myPara3);
+        myArticle.appendChild(myPara4);
+        myArticle.appendChild(myList);
+        myArticle.appendChild(myimg)
+        div.appendChild(myArticle);
+      }
+    }
+//////////////Home/////////////
