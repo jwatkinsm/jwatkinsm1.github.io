@@ -102,5 +102,34 @@ nav {	margin: 0 ;
   #active {background-color: rgb(107, 82, 45);}
     .responsive li { display: block; }
     .dropdown li{display:none;}
+
+    /*reservation and contact*/
+    fieldset{
+        background-color: rgba(176, 241, 172, 0.589);
+            display:flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+        
+    }
+   
+    .full{
+        width:100%;
+    }
+    textarea{
+        height: 100px;
+    }
+    /*Services*/
+    .speacial, .amenities{
+        display:grid;
+        grid-auto-rows: 1fr 1fr;
+        margin:3em;
+    }
+   
+    .div1{
+        background-color:red;}
+    .amenities ul, .speacial ul{
+         list-style-position: inside;
+        list-style-type: disc;
+    }
     
    

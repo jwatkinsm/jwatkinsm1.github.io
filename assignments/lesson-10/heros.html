@@ -43,6 +43,7 @@
     function showHeroes(jsonObj) {
       var heroes = jsonObj['members'];
       for(var i = 0; i < heroes.length; i++) {
+        if (heroes[i].name == 'Eternal Flame'){
         var myArticle = document.createElement('article');
         var myH2 = document.createElement('h2');
         var myPara1 = document.createElement('p');
@@ -65,6 +66,7 @@
         myArticle.appendChild(myPara3);
         myArticle.appendChild(myList);
         section.appendChild(myArticle);
+      }
       }
     }
     </script>

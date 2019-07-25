@@ -1,4 +1,4 @@
-/////////General/////////
+
 var div = document.querySelector('.templeData');
 var requestURL = 'https://jwatkinsm.github.io/assignments/final-term/script/temples.json';
 var request = new XMLHttpRequest();
@@ -10,18 +10,20 @@ request.open('GET', requestURL);
       showtemples(templeArray);
     }
    
+   /////////General/////////
     function showtemples(jsonObj) {
       var temples = jsonObj['temples'];
       for(var i = 0; i < temples.length; i++) {
+        if (temples[i].name == 'Freiberg Germany Temple'){
         var myArticle = document.createElement('article');
-        var myH2 = document.createElement('h2');
+        var myH3 = document.createElement('h3');
         var myPara1 = document.createElement('p');
         var myPara2 = document.createElement('p');
         var myPara3 = document.createElement('p');
         var myPara4 = document.createElement('p');
         var myList = document.createElement('ul');
         var myimg = document.createElement('img');
-        myH2.textContent = temples[i].name;
+        myH3.textContent = temples[i].name;
         myPara1.textContent = 'Address: ' + temples[i].address;
         myPara2.textcontent = temples[i].statecountry;
         myPara3.textContent = 'Phone: ' + temples[i].telephone;
@@ -33,7 +35,7 @@ request.open('GET', requestURL);
           myList.appendChild(listItem);
         }
      
-        myArticle.appendChild(myH2);
+        myArticle.appendChild(myH3);
         myArticle.appendChild(myPara1);
         myArticle.appendChild(myPara2);
         myArticle.appendChild(myPara3);
@@ -41,6 +43,7 @@ request.open('GET', requestURL);
         myArticle.appendChild(myList);
         myArticle.appendChild(myimg)
         div.appendChild(myArticle);
+      }
       }
     }
 //////////////Home/////////////

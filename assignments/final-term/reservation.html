@@ -49,50 +49,63 @@
             </nav>
         
         <main>
-            <form>
+            <form action=""method="GET">
                 <fieldset>
                         <legend>Personal Info</legend>
-                        first Name<br>
-                        *<input type="text" name="name" placeholder="first name" pattern="[A-Za-z]{5,}"required><br>
-                        last Name<br>
-                        *<input type="text" name="name" placeholder="last name" pattern="[A-Za-z]{7,}"required><br>
-                        Email<br>
-                        <input type="email" name="email" placeholder="example@email.com"><br>
-                        Phone Number<br>
-                        *<input type="tel" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="000-000-0000" required><br>
-                        Street Address<br>
-                        *<input type="text" name="name" placeholder="Address" pattern="[A-Za-z 0-9]"required><br>
+                    
+                        first Name
+                        *<input type="text" name="name" placeholder="first name" pattern="[A-Za-z]{5,}"required>
+                        last Name
+                        *<input type="text" name="name" placeholder="last name" pattern="[A-Za-z]{5,}"required>
+                   
+                    
+                        Email
+                        <input type="email" name="email" placeholder="example@email.com">
+                        Phone Number
+                        *<input type="tel" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="000-000-0000" required>
+                    
+                        Street Addres:
+                        *<input type="text" name="name" placeholder="Address" pattern="[A-Za-z 0-9]"required>
+                    
                         Zipcode
-                        *<input type="text" name="name" placeholder="Zipcode" pattern="[0-9]{5,}"required><br>
-                        Enter Country<br>
-                        *<input type="text" name="name" placeholder="Country" pattern="[A-Za-z]"required><br>
-                        Enter State/Province<br>
-                        *<input type="text" name="name" placeholder="state/province" pattern="[A-Za-z]"required><br>
-                        temple location<br>
+                        *<input type="text" name="name" placeholder="Zipcode" pattern="[0-9]{5,}"required>
+                        Enter Country
+                        *<input type="text" name="name" placeholder="Country" pattern="[A-Za-z]"required>
+                        Enter State/Province
+                        *<input type="text" name="name" placeholder="state/province" pattern="[A-Za-z]"required>
+                    
+                    </fieldset>
+                        <fieldset>
+                            <legend>Booking Info</legend>
+                        temple location
                         <select required>
                             <option value="selectlocation"  selected="default"  disabled>select location</option>
                             <option value="philidilphia" >philidilphia</option>
                             <option value="chicago" >chicago</option>
                             <option value="laie" >laie</option>
                             <option value="germany" >germany</option>
-                        </select>><br>
-                        room Type<br>
-                        *<input list="stype" name="stype" required >
-                            <datalist id="stype">
+                        </select>
+                        room Type
+                        *<input list="rtype" name="rtype" required >
+                            <datalist id="rtype">
                                 <option value="single bed"></option>
                                 <option value="two bed"></option>
                                 <option value="king bed"></option>
                                 <option value="Family suite"></option>
                                 
-                            </datalist><br>
-                        staying from<br>
-                        *<input type="date" name="date" required><br>
+                            </datalist>
+                        
+                        
+                        staying 
+                        from
+                        *<input type="date" name="date" required>
                         to
-                        *<input type="date" name="date" required><br>
-                        Accomadations/Comments<br>
-                        <textarea class="full"  name="comments"></textarea><br>
+                        *<input type="date" name="date" required>
+                        Accomadations/Comments
+                        <textarea class="full"  name="comments"></textarea>
+                    
                 </fieldset>
-             <input class="full" type="submit" value="Submit Storm Report">
+             <input class="full" type="submit" value="BOOK NOW">
             </form>
         </main>
 
