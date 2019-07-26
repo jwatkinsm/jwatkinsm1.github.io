@@ -1,4 +1,4 @@
-var templesList = document.getElementByclass("templegeneral");
+var templesList = document.getElementsByClassName("templegeneral");
 
 var templesURL = 'https://jwatkinsm.github.io/assignments/final-term/script/newtemple.json';
 
@@ -29,7 +29,7 @@ function displayTemple(templeData) {
     templeDetails.innerHTML = ''
       + '<h3>' + templeData.name + '</h3>'
       + '<aside>'
-      + '  <img src="https://jwatkinsm.github.io/assignments/final-term/images/' + templeData.photo + '" alt="' + templeData.name + '" class="temple-photo">'
+     // + '  <img src="https://jwatkinsm.github.io/assignments/final-term/images/' + templeData.photo + '" alt="' + templeData.name + '" class="temple-photo">'
       + '  <p>'
       + '    Currently: ' + weatherData.weather[0].main + '<br>'
       + '    High: ' + weatherData.main.temp_max + 'º F<br>'
