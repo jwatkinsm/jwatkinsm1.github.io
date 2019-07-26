@@ -74,19 +74,22 @@ nav {	margin: 0 ;
 .topNav { list-style: none; 
     text-align: center;
     display: flex;
-    flex-direction:column; 
+    flex-direction: column; 
     background-color: rgb(10, 117, 6);
-    position: relative;
+  
 }
     .dropdown{
         background-color: blue;
         text-align: center;
     flex-direction:column;
     
+    
     }
   .topNav li:first-child { display: block;}
   .dropdown li:first-child{display:none;}
-  .topNav li { display: none;}
+  .topNav li { display: none;
+    position: relative;
+}
   .topNav a {	display: block;	
     color: white; 
     padding: .75rem;
@@ -120,16 +123,83 @@ nav {	margin: 0 ;
     }
     /*Services*/
     .speacial, .amenities{
-        display:grid;
-        grid-auto-rows: 1fr 1fr;
-        margin:3em;
+        padding:1px;
+        display: flex;
+        flex-flow: column-reverse wrap;
+        align-items: center;
+      justify-content: center;
+      
+    
     }
+    .speacial{
+        background-color: gray;
+    }
+    
    
     .div1{
-        background-color:red;}
+       
+        padding:1em;
+        margin:0em;
+       
+    
+    }
+   
+    .div1, .div2{
+        max-width: 1fr;
+flex:1 0 15em;
+
+    }
     .amenities ul, .speacial ul{
          list-style-position: inside;
         list-style-type: disc;
     }
+    /*temples*/
+    .templegeneral{
+        display:grid;
+    grid-template-columns:1fr;
+    grid-gap:5px;
+    text-align: center;
+    align-content: center
+    }
+    .templegeneral ul{
+       list-style-position: inside;
+    }
+    .templegeneral article{
+        padding:1em;
+        margin:.5em;
+        background-color: blue
+    }
+    .templegeneral a{
+        background-color: bisque;
+        padding:10px;
+    }
+/*home*/
+.about{
+    background-color: antiquewhite;
+}
+.about, .book{
+    padding:1em;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+  justify-content: center;
+}
+.book{
+    background-color: gray;
+}
+.div1{
+    padding:1em;
+}
+.us, .image, .bus{
+    max-width: 1fr;
+flex:1 0 15em;
+}
+.book a{
+    padding:2em;
+    background-color:white;
+    width:100%;
+    text-align: center;
+}
+
     
    

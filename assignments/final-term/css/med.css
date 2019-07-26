@@ -1,15 +1,63 @@
 @media only screen and (min-width: 600px) {
+    .topNav{flex-direction: row;}
+    
+    .topNav li:first-child { display: none;}
+    .dropdown li:first-child{display:none;}
+    .topNav li { display: block; flex: 1 1 auto;}	
+    .topNav li a { color: white;           
+    }
+    .dropdown li{display:none;
+        
+    }
+    .dropdown{
+        position: absolute;
+        }
+    .dropdown li a{
+        padding-left:5em;
+        padding-right: 5em;
+       
+    }
+
    fieldset{align-content: center;
        margin:0em 4em ;
        padding:0em 4em ;
        
    }
+   /*reservation and contact*/
    textarea,input{
        margin: 0.5em;
       padding: 0.5em;
        width:50%;
    }
-   .speacial div, .amenities div{
-    grid-auto-columns: 1fr 1fr;
+   /*services*/
+   .speacial {
+      
+    flex-flow: row wrap;
+    
+   }
+   .amenities{
+flex-flow:row-reverse wrap;
+   }
+
+    /*temple*/
+.templegeneral {
+    grid-template-columns:1fr 1fr;
+}
+/*home*/
+.about {
+      
+    flex-flow: row wrap;
+    
+   }
+   .book{
+flex-flow:row-reverse wrap;
+   }
+   .book a{
+       width: 25%;
+       align-content: center;
+       justify-content: center;
+  
+    
+    
 }
 }
