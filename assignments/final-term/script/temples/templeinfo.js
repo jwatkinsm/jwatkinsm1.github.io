@@ -21,13 +21,14 @@ request.open('GET', requestURL);
             temples[i].name == 'Chicago Illinois Temple'
             ){
         var myArticle = document.createElement('article');
+        var myimg = document.createElement('img');
         var myH3 = document.createElement('h3');
         var myPara1 = document.createElement('p');
         var myPara2 = document.createElement('p');
         var myPara3 = document.createElement('p');
         var myPara4 = document.createElement('p');
         var myList = document.createElement('ul');
-        var myimg = document.createElement('img');
+       
         var link =document.createElement('a');
 
         myH3.textContent = temples[i].name;
@@ -43,18 +44,19 @@ request.open('GET', requestURL);
           myList.appendChild(listItem);
         }
         if (temples[i].name == 'Freiberg Germany Temple') {
+          myArticle.setAttribute
           myimg.setAttribute("src", "images/celeste.jpg");
          myimg.setAttribute("alt", "Lakeside ");
          link.setAttribute("href", "contact.html");
         }
-     
+        myArticle.appendChild(myimg);
         myArticle.appendChild(myH3);
         myArticle.appendChild(myPara1);
         myArticle.appendChild(myPara2);
         myArticle.appendChild(myPara3);
         myArticle.appendChild(myPara4);
         myArticle.appendChild(myList);
-        myArticle.appendChild(myimg);
+        
        myArticle.appendChild(link);
         div.appendChild(myArticle);
       }

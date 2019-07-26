@@ -11,45 +11,79 @@
                 "4 October 2008 Announced",
             "17 September 2011 Groundbreaking",
         "18 September 2016 Dedicated" ],
-            "ordinance-schedule": [{
+            "ordinanceschedule": [{
                 "sealing":[{
-                    "tues, thurs":[],
-                    "wed":[],
-                    "fri":[],
-                    "sat":[],
+                    "tues, thurs":["5:30 PM - 9:00 PM Walk-ins Only"],
+                    "wed":["9:30 AM - 1:00 PM Walk-ins Only",
+                        "5:30 PM - 9:00 PM Walk-ins Only"
+                    ],
+                    "fri":["10:00 AM - 1:30 PM Walk-ins Only",
+                            "5:30 PM - 9:00 PM Walk-ins Only"
+                    ],
+                    "sat":["7:30 AM - 4:00 PM Walk-ins Only"],
                     "sun-mon":["closed"]
                 }],
                 "endowment":[{
-                "tues, thurs":[],
-                "wed":[],
-                "fri":[],
-                "sat":[],
+                "tues, thurs":["6:30 PM Walk-ins Only",
+                                "7:45 PM Walk-ins Only"
+                ],
+                "wed":["10:00 AM Walk-ins Only",
+                        "11:15 AM Walk-ins Only", 
+                        "6:30 PM Walk-ins Only",
+                        "7:45 PM Walk-ins Only"
+                ],
+                "fri":["10:00 AM Walk-ins Only",
+                    "11:15 AM Walk-ins Only",
+                     "12:30 PM Walk-ins Only",
+                    "6:30 PM Walk-ins Only",
+                    "7:45 PM Walk-ins Only"],
+                "sat":["7:00 AM Walk-ins Only",
+                    "8:15 AM Walk-ins Only",
+                    "9:30 AM Walk-ins Only",
+                    "10:45 AM Walk-ins Only",
+                    "12:00 PM Walk-ins Only",
+                    "1:15 PM Walk-ins Only",
+                    "1:15 PM Walk-ins Only - ASL",
+                    "2:30 PM Walk-ins Only - Spanish"
+                ],
                 "sun-mon":["closed"]
             }],
                 "baptism":[{
-                "tues, thurs":[],
-                "wed":[],
-                "fri":[],
-                "sat":[],
+                "tues, thurs":["6:00 PM - 9:30 PM Appointments Only"],
+                "wed":["9:30 AM - 1:30 PM Appointments Only",
+                    "6:00 PM - 9:30 PM Appointments Only"
+                
+                ],
+                "fri":["9:30 AM - 1:30 PM Appointments Only",
+                        "6:00 PM - 7:30 PM Family Priority Time - Appointments Only",
+                        "7:30 PM - 9:30 PM Appointments Only"
+                ],
+                "sat":["7:30 AM - 12:00 PM Appointments Only",
+                        "12:00 PM - 1:30 PM Family Priority Time - Appointments Only",
+                        "1:30 PM - 4:30 PM Appointments Only"
+                ],
                 "sun-mon":["closed"]
             }],
                 "intialtory":[{
-                "tues, thurs":[],
-                "wed":[],
-                "fri":[],
-                "sat":[],
+                "tues, thurs":["5:45 PM - 9:00 PM Walk-ins Only"],
+                "wed":["9:15 AM - 1:30 PM Walk-ins Only",
+                    "5:45 PM - 9:00 PM Walk-ins Only"
+                ],
+                "fri":["9:15 AM - 1:30 PM Walk-ins Only",
+                    "5:45 PM - 9:00 PM Walk-ins Only"],
+                "sat":["7:30 AM - 4:00 PM Walk-ins Only"],
                 "sun-mon":["closed"]
             }],
             
                 
             
-            "temple-closures" : [{
+            "templeclosures" : [{
                 "2019":[
                 "Monday, 16 September 2019 - Monday, 30 September 2019",
                 "Saturday, 5 October 2019",
                 "Wednesday, 27 November 2019 - Thursday, 28 November 2019",
                 "Tuesday, 24 December 2019 - Wednesday, 25 December 2019",
-                "Tuesday, 31 December 2019"],
+                "Tuesday, 31 December 2019"]}],
                 
                 "2020":[
                 "Wednesday, 1 January 2020",
@@ -61,7 +95,7 @@
                 "Wednesday, 25 November 2020 - Thursday, 26 November 2020",
                 "Thursday, 24 December 2020 - Friday, 25 December 2020",
                 "Thursday, 31 December 2020"]}]
-                }]},
+            },
         {
             "name": "Freiberg Germany Temple",
             "address": "Hainichener Strasse 64",
@@ -78,7 +112,7 @@
                 "29 June 1985 Dedicated",
                 "7 September 2002 Rededicated",
                 "4 September 2016 Rededicated" ],
-            "ordinance-schedule": [{
+            "ordinanceschedule": [{
                 "sealing":[{
                     "tues, thurs":[
                         "11:00 AM - 12:30 PM - Walk-ins and Appointments",
@@ -181,12 +215,12 @@
                     "1:00 PM - 2:30 PM - Walk-ins and Appointments"
                   ],
                   "sun-mon":"closed"
-              }],
+              }]}],
             
                 
             
-            "temple-closures" : [{
-                "2019":[
+            "templeclosures" : [{
+                "nineteen":[
                   "Monday, 9 September 2019 - Monday, 23 September 2019",
                   "Saturday, 5 October 2019",
                   "Tuesday, 24 December 2019 - Thursday, 26 December 2019",
@@ -201,7 +235,7 @@
                   "Thursday, 24 December 2020 - Saturday, 26 December 2020",
                   "Thursday, 31 December 2020"]
                 }]
-                }]},
+                }],
          {
             "name": "Laie Hawaii Temple",
             "address": "55-600 Naniloa Loop Laie",
@@ -218,35 +252,112 @@
                 "13 August 1983 Groundbreaking",
                 "9 August 1985 Dedicated",
                 "8 October 1989 Rededicated" ],
-            "ordinance-schedule": [{
+            "ordinanceschedule": [{
                 "sealing":[{
-                    "tues, thurs":[],
-                    "wed":[],
-                    "fri":[],
-                    "sat":[],
+                    "tues, thurs":["7:00 AM - 8:00 AM Walk-ins and Appointments",
+                        "8:00 AM - 4:00 PM Appointments Only",
+                        "4:00 PM - 6:00 PM Walk-ins and Appointments",
+                        "6:00 PM - 8:00 PM Appointments Only",
+                        "8:00 PM - 9:00 PM Walk-ins and Appointments"],
+                    "wed":["7:00 AM - 8:00 AM Walk-ins and Appointments",
+                        "8:00 AM - 4:00 PM Appointments Only",
+                        "4:00 PM - 6:00 PM Walk-ins and Appointments",
+                        "6:00 PM - 8:00 PM Appointments Only",
+                        "8:00 PM - 9:00 PM Walk-ins and Appointments"],
+                    "fri":["7:00 AM - 8:00 AM Walk-ins and Appointments",
+                        "8:00 AM - 4:00 PM Appointments Only",
+                        "4:00 PM - 6:00 PM Walk-ins and Appointments",
+                        "6:00 PM - 8:00 PM Appointments Only",
+                        "8:00 PM - 9:00 PM Walk-ins and Appointments"],
+                    "sat":["6:00 AM - 10:00 AM Walk-ins and Appointments",
+                        "10:00 AM - 11:00 AM Appointments Only",
+                        "11:00 AM - 2:00 PM Walk-ins and Appointments"
+                    ],
                     "sun-mon":"closed"
                 }],
                 "endowment":[{
-                    "tues, thurs":[],
-                    "wed":[],
-                    "fri":[],
-                    "sat":[],
+                    "tues, thurs":["7:00 AM Walk-ins and Appointments - English",
+                        "8:00 AM Walk-ins and Appointments - English",
+                        "9:00 AM Walk-ins and Appointments - English",
+                        "10:00 AM Walk-ins Only - English",
+                        "11:00 AM Walk-ins and Appointments - English",
+                        "12:00 PM Walk-ins and Appointments - English",
+                        "1:00 PM Walk-ins Only - English",
+                        "2:00 PM Walk-ins and Appointments - English",
+                        "4:00 PM Walk-ins and Appointments - English",
+                        "5:00 PM Walk-ins Only - English",
+                        "6:00 PM Walk-ins and Appointments",
+                        "7:00 PM Walk-ins and Appointments - English",
+                        "8:00 PM Walk-ins Only - English"
+                    ],
+                    "wed":["7:00 AM Walk-ins and Appointments - English",
+                        "8:00 AM Walk-ins and Appointments - English",
+                        "9:00 AM Walk-ins and Appointments - English",
+                        "10:00 AM Walk-ins Only - English",
+                        "11:00 AM Walk-ins and Appointments - English",
+                        "12:00 PM Walk-ins and Appointments - English",
+                        "1:00 PM Walk-ins Only - English",
+                        "2:00 PM Walk-ins and Appointments - English",
+                        "4:00 PM Walk-ins and Appointments - English",
+                        "5:00 PM Walk-ins Only - English",
+                        "6:00 PM Walk-ins and Appointments",
+                        "7:00 PM Walk-ins and Appointments - English",
+                        "8:00 PM Walk-ins Only - English"
+                    ],
+                    "fri":["7:00 AM Walk-ins and Appointments - English",
+                        "8:00 AM Walk-ins and Appointments - English",
+                        "9:00 AM Walk-ins and Appointments - English",
+                        "10:00 AM Walk-ins Only - English",
+                        "11:00 AM Walk-ins and Appointments - English",
+                        "12:00 PM Walk-ins and Appointments - English",
+                        "1:00 PM Walk-ins Only - English",
+                        "2:00 PM Walk-ins and Appointments - English",
+                        "4:00 PM Walk-ins and Appointments - English",
+                        "5:00 PM Walk-ins Only - English",
+                        "6:00 PM Walk-ins and Appointments",
+                        "7:00 PM Walk-ins and Appointments - English",
+                        "8:00 PM Walk-ins Only - English"
+                    ],
+                    "sat":["6:00 AM Walk-ins Only - English",
+                        "7:00 AM Walk-ins and Appointments - English",
+                        "8:00 AM Walk-ins and Appointments - English",
+                        "9:00 AM Walk-ins and Appointments - English",
+                        "10:00 AM Walk-ins Only - English",
+                        "11:00 AM Walk-ins and Appointments - English",
+                        "12:00 PM Walk-ins and Appointments - English",
+                        "1:00 PM Walk-ins Only - English"],
                     "sun-mon":"closed"
                 }],
                 "baptism":[{
-                    "tues, thurs":[],
-                    "wed":[],
-                    "fri":[],
-                    "sat":[],
+                    "tues, thurs":["7:00 AM - 9:00 AM Walk-ins Only",
+                                    "2:00 PM - 4:00 PM Walk-ins Only",
+                                    "5:30 PM - 6:30 PM Family Priority Time - Appointments Only",
+                                    "7:00 PM - 8:00 PM Church Groups - Appointments Only"
+                    ],
+                    "wed":["7:00 AM - 9:00 AM Walk-ins Only",
+                        "2:00 PM - 4:00 PM Walk-ins Only",
+                        "5:30 PM - 6:30 PM Family Priority Time - Appointments Only",
+                        "7:00 PM - 8:00 PM Church Groups - Appointments Only"
+                    ],
+                    "fri":["7:00 AM - 9:00 AM Walk-ins Only",
+                        "2:00 PM - 4:00 PM Walk-ins Only",
+                        "5:30 PM - 6:30 PM Family Priority Time - Appointments Only",
+                        "7:00 PM - 8:00 PM Church Groups - Appointments Only"
+                    ],
+                    "sat":["6:30 AM - 7:30 AM Church Groups - Appointments Only",
+                        "8:30 AM - 9:30 AM Church Groups - Appointments Only"
+                    ],
                     "sun-mon":"closed"
                 }],
                 "intialtory":[{
-                    "tues, thurs":[],
-                    "wed":[],
-                    "fri":[],
-                    "sat":[],
+                    "tues, thurs":["7:00 AM - 8:00 PM Walk-ins and Appointments"],
+                    "wed":["7:00 AM - 8:00 PM Walk-ins and Appointments"],
+                    "fri":["7:00 AM - 8:00 PM Walk-ins and Appointments"],
+                    "sat":["6:00 AM - 11:00 AM Walk-ins and Appointments",
+                        "12:00 PM - 1:00 PM Walk-ins and Appointments"
+                    ],
                     "sun-mon":"closed"
-                }],
+                }]}],
             
                 
             
@@ -279,7 +390,7 @@
                     "Saturday, 2 January 2021 (Limited Hours)",
                     "Monday, 4 January 2021 - Monday, 18 January 2021"
                 ]}
-                ]}]},
+                ]}]}],
         {
         "name": "Chicago Illinois Temple",
         "address": "4151 W Lake Ave Glenview",
@@ -292,7 +403,7 @@
             "13 August 1983 Groundbreaking",
             "9 August 1985 Dedicated",
             "8 October 1989 Rededicated" ],
-        "ordinance-schedule": [{
+        "ordinanceschedule": [{
             "sealing":[{
                 "tues, thurs":[],
                 "wed":[],
@@ -324,8 +435,8 @@
         
             
         
-        "temple-closures" : [{
-            "2019":[
+        "templeclosures" : [{
+            "nineteen":[
                 "Sunday, 23 June 2019 - Monday, 2 September 2019",
                 "Saturday, 5 October 2019",
                 "Wednesday, 27 November 2019 (Limited Hours)",

@@ -44,10 +44,8 @@ flex-flow:row-reverse wrap;
     grid-template-columns:1fr 1fr;
 }
 /*home*/
-.about {
-      
+.about,.footer {   
     flex-flow: row wrap;
-    
    }
    .book{
 flex-flow:row-reverse wrap;

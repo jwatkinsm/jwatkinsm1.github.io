@@ -149,6 +149,9 @@ nav {	margin: 0 ;
 flex:1 0 15em;
 
     }
+    .div2 img{
+        width:100%;
+    }
     .amenities ul, .speacial ul{
          list-style-position: inside;
         list-style-type: disc;
@@ -177,28 +180,38 @@ flex:1 0 15em;
 .about{
     background-color: antiquewhite;
 }
-.about, .book{
-    padding:1em;
+.about, .book, .footer{
+    padding:.5em;
     display: flex;
     flex-flow: column wrap;
     align-items: center;
   justify-content: center;
+  text-align: center;
 }
 .book{
     background-color: gray;
 }
-.div1{
-    padding:1em;
-}
 .us, .image, .bus{
+    padding:1em;
     max-width: 1fr;
 flex:1 0 15em;
 }
+.image img{
+    width:100%;
+}
+.book h3{
+    margin:2em;
+}
+.map, .contactfooter{
+    align-content: center;
+    padding:1em;
+}
 .book a{
+    margin:2em;
     padding:2em;
     background-color:white;
     width:100%;
-    text-align: center;
+    
 }
 
     
