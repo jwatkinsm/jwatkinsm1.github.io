@@ -1,4 +1,4 @@
-var templesList = document.getElementsByClassName("templegeneral");
+var temples = document.getElementById("temple");
 
 var templesURL = 'https://jwatkinsm.github.io/assignments/final-term/script/newtemple.json';
 
@@ -24,12 +24,12 @@ function displayTemple(templeData) {
     let weatherData = JSON.parse(weatherRequest.responseText);
     console.log(weatherData);
 
-    var templeDetails = document.createElement("div");
-    templeDetails.className = "temple-details";
-    templeDetails.innerHTML = ''
+    var templeD = document.createElement("div");
+    templeD.className = "temple-details";
+    templeD.innerHTML = ''
       + '<h3>' + templeData.name + '</h3>'
       + '<aside>'
-     // + '  <img src="https://jwatkinsm.github.io/assignments/final-term/images/' + templeData.photo + '" alt="' + templeData.name + '" class="temple-photo">'
+      + '  <img src="https://jwatkinsm.github.io/assignments/final-term/images/' + templeData.photo + '" alt="' + templeData.name + '" class="temple-photo">'
       + '  <p>'
       + '    Currently: ' + weatherData.weather[0].main + '<br>'
       + '    High: ' + weatherData.main.temp_max + 'º F<br>'
@@ -51,9 +51,9 @@ function displayTemple(templeData) {
       + '  <li><b>Sealing:</b> ' + templeData.schedules.sealing + '</li>'
       + '</ul></li>'
       + '<li><b>Closures:</b> ' + templeData.closures + '</li>'
-      + '<li>Complete information can be found at <a title="ChurchofJesusChrist.org: ' + templeData.name + '" href="' + templeData.link + '">ChurchofJesusChrist.org</a>.</li>'
+      + '<li>More Info at <a title="ChurchofJesusChrist.org: ' + templeData.name + '" href="' + templeData.link + '">ChurchofJesusChrist.org</a>.</li>'
       + '</ul>'
       + '</div>';
-    templesList.appendChild(templeDetails);
+    temples.appendChild(templeD);
   }
 }

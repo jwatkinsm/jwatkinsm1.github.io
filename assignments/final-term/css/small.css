@@ -157,25 +157,7 @@ flex:1 0 15em;
         list-style-type: disc;
     }
     /*temples*/
-    .templegeneral{
-        display:grid;
-    grid-template-columns:1fr;
-    grid-gap:5px;
-    text-align: center;
-    align-content: center
-    }
-    .templegeneral ul{
-       list-style-position: inside;
-    }
-    .templegeneral article{
-        padding:1em;
-        margin:.5em;
-        background-color: blue
-    }
-    .templegeneral a{
-        background-color: bisque;
-        padding:10px;
-    }
+    
 /*home*/
 .about{
     background-color: antiquewhite;
