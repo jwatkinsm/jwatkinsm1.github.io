@@ -37,12 +37,11 @@ function displayTemple(templeData) {
       + '    Wind Speed: ' + weatherData.wind.speed + ' mph<br>'
       + '  </p>'
       + '</aside>'
-      + '<div class="main-info">'
+      + '<div class="main-info'+ templeData.weatherId +'">'
       + templeData.history
       + '<ul>'
       + '<li><b>Address:</b> ' + templeData.address + '</li>'
       + '<li><b>Phone number:</b> ' + templeData.phone + '</li>'
-      + '<li><b>Email address:</b> ' + templeData.email + '</li>'
       + '<li><b>Services:</b> ' + templeData.services + '</li>'
       + '<li><b>Schedule:</b><ul>'
       + '  <li><b>Baptism:</b> ' + templeData.schedules.baptism + '</li>'

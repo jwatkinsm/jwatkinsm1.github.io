@@ -1,7 +1,9 @@
 @media only screen and (min-width: 992px) {
+    aside {
+        float: right;
+        width: 500px;
+        margin-left: 16px;
+      }
     
-    
-    .templegeneral{
-        grid-template-columns:1fr 1fr 1fr 1fr;
-    }
+   
 }

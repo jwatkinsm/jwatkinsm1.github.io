@@ -40,9 +40,13 @@ flex-flow:row-reverse wrap;
    }
 
     /*temple*/
-.templegeneral {
-    grid-template-columns:1fr 1fr;
-}
+    aside {
+        padding: 1em;
+        float: right;
+        width: 250px;
+        margin-left: 16px;
+      }
+
 /*home*/
 .about,.footer {   
     flex-flow: row wrap;

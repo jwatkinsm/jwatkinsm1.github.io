@@ -2,14 +2,15 @@
     padding: 0;
     box-sizing: border-box; 
     font-family: 'Cabin', sans-serif;
+    
 }
 img {
     max-width: 100%;
     margin: 0px;
     padding: 0px;
-    
-}.hero-image {
-    background-size: cover;
+}
+main{
+    background-color:#d5a021;
 }
 
 body {
@@ -37,7 +38,7 @@ header, main, footer, nav {
 }
 header, footer, footer a, nav {
     text-align: center;
-    background-color: rgb(84, 179, 66);
+    background-color: #d5a021;
     color:whitesmoke;
 }
 .headerimage {
@@ -75,11 +76,11 @@ nav {	margin: 0 ;
     text-align: center;
     display: flex;
     flex-direction: column; 
-    background-color: rgb(10, 117, 6);
+    background-color: #4b4237;
   
 }
     .dropdown{
-        background-color: blue;
+        background-color:#736b60;
         text-align: center;
     flex-direction:column;
     
@@ -108,7 +109,7 @@ nav {	margin: 0 ;
 
     /*reservation and contact*/
     fieldset{
-        background-color: rgba(176, 241, 172, 0.589);
+        background-color: #ede7d9;
             display:flex;
             flex-wrap: wrap;
             flex-direction: row;
@@ -157,10 +158,28 @@ flex:1 0 15em;
         list-style-type: disc;
     }
     /*temples*/
-    
+    div.temple-details {
+        background-color:#d5a021;
+        clear: both;
+      }
+      .main-info4887398,.main-info2925192{
+          padding:3em;
+        background-color:#a49694;
+      }
+      .main-info4560349,.main-info5850027,.reception,.mission {
+          padding:3em;
+          background-color:#ede7d9;
+      }
+      aside {
+          padding:1em;
+       background-color:#736b60;
+      }
+      aside img {
+        width: 100%;
+      }
 /*home*/
-.about{
-    background-color: antiquewhite;
+.about,.main-info,.speacial{
+    background-color: #ede7d9;
 }
 .about, .book, .footer{
     padding:.5em;
@@ -170,8 +189,8 @@ flex:1 0 15em;
   justify-content: center;
   text-align: center;
 }
-.book{
-    background-color: gray;
+.book,.amenities{
+    background-color: #a49694;
 }
 .us, .image, .bus{
     padding:1em;
